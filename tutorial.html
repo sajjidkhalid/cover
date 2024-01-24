@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sajjid assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        
+
+
+        .body{
+            height: 140px;
+            width: 100%;
+            background-color: aqua;
+            border: 1px solid aqua;
+            clear: both;
+            float: left;
+        }
+    
+        
+        .text{
+            color: green;
+            font-size: 35px;
+            margin-top: 100px;
+            margin-left: 100px;
+            cursor: pointer;
+            float: left;
+        
+        
+        }
+        .image{
+            height: 40px;
+            width: 25px;
+            margin: 0 auto;
+            margin-top:30px;
+        }
+    
+    
+        .icons{
+            margin: 0 auto;
+            margin-left: 900px;
+            margin-top: 0%;
+            line-height: 1px;
+            padding: 10px;
+        }
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .nav{
+        height: 100px;
+        width: 100%;
+        background-color:aqua;
+        
+        
+    }
+    ul li{
+        list-style-type: none;
+        float: left;
+        
+        width: 133px;
+        
+        line-height: 70px;
+    }
+  
+   ul li ul li{
+    display: none;
+   }
+   ul li:hover ul li{
+    display: block;
+   }
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+   body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: centre;
+   }
+   .imgslider{
+    width: 60%;
+    height: 600px;
+    background-image: url(/images/12.jpg);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 470px;
+    animation: changeImage 20s linear infinite ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+   }
+   @keyframes changeImage {
+    0%{
+        background-image: url(/images/12.jpg);
+        
+    }
+    25%{
+        background-image: url(/images/13.jpg);
+    }
+    50%{
+        background-image: url(/images/14.jpg);
+    }
+    75%{
+        background-image: url(/images/15.jpg);
+    }
+    100%{
+        background-image: url(/images/16.jpg);
+    }
+   }
+  .text h1{
+    text-align: center;
+    margin-top: 600px;
+    
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+  }
+  .text h1:hover{
+    background-color: blue;
+  }
+  .para h2{
+    background-color:yellow;
+    cursor: pointer;
+    margin-top: 300px;
+  }
+  .para h2:hover{
+    background-color: blue;
+    color: red;
+  }
+  .box{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+  }
+ .con{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .con:hover{
+    color: blue;
+    transition: 3s;
+ }
+ #container{
+    height: 700px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: brown;
+    background-color: white;
+ }
+ .box1{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: darkblue;
+ }
+ .box2{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: aliceblue;
+ }
+ .box3{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: red;
+ }
+ .con1{
+    color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: 20px 20px 20px black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .con2{
+    color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: 20px 20px 20px black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .con3{
+    color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: 20px 20px 20px black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+ .con4{
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+    margin-top: 150px;
+ }
+ .h1{
+    margin-top: 60px;
+    margin-left: 1px;
+    font-size: 30px;
+    font-style: italic;
+    background-image:url(/images/17.jpg);
+    
+    
+ }
+ .b1{
+    height: 450px;
+    width: 100%;
+    border: 1px solid black;
+    background-color:blue;
+ }
+ .h2{
+    
+    
+    font-size: 30px;
+    font-style: italic;
+    float: left;
+    color: blue;
+    
+    
+ }
+ .b2{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    
+    
+    
+ }
+ .picture1{
+    margin-left:400px;
+    border: 1px solid black;
+    
+    background-color: rgb(150, 35, 35);
+    
+ }
+   .h1{
+    color: blue;
+   }    
+      .h1:hover{
+        color: green;
+        cursor: pointer;
+        transition: 3s;
+      } 
+      .h2:hover{
+       color: rgb(136, 77, 77);
+      } 
+      .container1{
+        height: 1300px;
+        width: 100%;
+        background-color: brown;
+      }
+    .h3{
+        margin-top: 300px;
+        margin-left: 300px;
+        color: brown;
+    }
+    .h3:hover{
+        color: blue;
+    }
+      .b3{
+        height: 500px;
+        width: 400px;
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-left: 250px;
+        margin-top: 50px;
+      }
+
+    
+        #about{
+            height: 400px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: blue;
+            margin-top: 2500px;
+        }
+        #pic1{
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            border-radius: 360px;
+            margin: 0 auto;
+            margin-top: 50px;
+            background-image: url(/images/18.jpg);
+        }
+        #tx{
+            height: 150px;
+            width: 700px;
+            margin: 0 auto;
+            margin-top: 30px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #tx2{
+            height: 100px;
+            width: 100%;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 30px;
+        } 
+        #con{
+            height: 500px;
+            width: 100%;
+            border: 1px solid black;
+        }   
+        #a{
+            height: 300px;
+            width: 300px;
+            float: left;
+            margin-left: 40px;
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+        #b{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+        #c{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 100px;
+            margin-top: 20px;
+            
+        }
+        #icon1{
+            height: 50px;
+            width: 50px;
+            border: 1px solid black ;
+            margin: 0 auto;
+            margin-top: 10px;
+            background-image: url(/images/18.jpg);
+            background-size: cover;
+        }
+        #icon2{
+            height: 50px;
+            width: 50px;
+            border: 1px solid black ;
+            margin: 0 auto;
+            margin-top: 10px;
+            background-image: url(/images/19.png);
+            background-size: cover;
+        }
+        #icon3{
+            height: 50px;
+            width: 50px;
+            border: 1px solid black ;
+            margin: 0 auto;
+            margin-top: 10px;
+            background-image: url(/images/20.png);
+            background-size: cover;
+        }
+        .t1{
+        
+            color: blue;
+            font-size: 22px;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-left: 70px;
+
+        }
+        .tt{
+            color: blue;
+            margin-top: 500px; 
+            float: left;
+             text-align: center; 
+            margin: 0 auto;
+            margin-left: 200px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        .number{
+            margin-top: 110px;
+            margin-left: 140px;
+            float: left;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: green;
+            cursor: pointer;
+        }
+        .gallery{
+            margin-top: 110px;
+            margin-left: 300px;
+            float: left;
+            cursor: pointer;
+
+            
+        }
+        .gallery:hover{
+            color: blue;
+        }
+        .bold{
+            color: green;
+
+        }
+        .bold:hover{
+            color:blue;
+        }
+        .border{
+            height: 1500px;
+            width: 100%;
+            background-color: aqua;
+            float: left;
+        
+        }
+        .x1{
+            height: 300px;
+            width: 300px;
+            float: left;
+            background-image: url(/images/25.jpg);
+            
+            margin-left: 68px;
+            margin-top: 30px;
+        }
+        .x2{
+            height: 300px;
+            width: 300px;
+            float: left;
+            background-image: url(/images/26.jpg);
+        
+            margin-left: 80px;
+            margin-top: 30px;
+            
+        }
+        .x3{
+            height: 300px;
+            width: 300px;
+            float: left;
+            background-image: url(/images/27.jpg);
+            background-image: url(/images/26.jpg);
+            background-image: url(/images/25.jpg);
+            margin-left: 80px;
+            margin-top: px;
+            
+            
+        }
+        
+       
+        .t1{
+            color:red;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 30px;
+            margin-left: 80px;
+        }
+         .t1{
+            color:blue;
+         }
+         .t1:hover{
+            color: green;
+            cursor: pointer;
+         }
+            
+        
+        .t2{
+            color:red;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 30px;
+            margin-left: 80px;
+            
+            
+        }
+        .t3{
+            color:red;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 30px;
+            margin-left: 80px;
+            
+            
+        }
+        .bye{
+            margin-left: 500px;
+            margin-top: 300px;
+            text-align: center;
+            color: green;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .bye:hover{
+            color: blue;
+        }
+        .video1{
+            margin-left: 700px;
+            margin-top: 150px;
+            background-color: brown;
+            
+        }
+        </style>    
+            
+        
+        
+        
+            
+            
+        
+   
+</head>
+<body>
+    <div class="body">
+        <div class="text"><i class="fa fa-instagram" aria-hidden="true"></i>sajidar613@gmail.com</div>
+        <div class="number"><i class="fa fa-phone" aria-hidden="true"></i>03119848678</div>
+        <div class="gallery">
+            <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+             <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://sites.google.com/onlinewebhelp.com/web-whatsappcom/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+
+    </div>
+        <div class="bold">
+            <h1 style="color: green; font-size: 80px; margin-top: 10px; margin-right:30px;"> <a href="https://www.picnictime.com/">PICNIC WEBSITE</a></h1></div>
+       
+        <div class="nav">
+            <ul>
+                <li>HOME<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul>
+                        <li><img src="/images/12.jpg" alt="" width="280px" height="400px"></li>
+                        <li><img src="/images/28.jpg" alt="" width="280px" height="400px"></li>
+                        <li><img src="/images/29.jpg" alt="" width="280px" height="400px"></li>
+                        <li><img src="/images/30.jpg" alt="" width="280px" height="400px"></li>
+                    </ul>
+                </li>
+                <li>ABOUT<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul>
+                        <li><video src="/images/1.mp4" width="300px" height="300px"></video></li>
+                        <li><h1>lorem</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi quisquam quia nostrum eos voluptas minus. Libero architecto labore quibusdam?</p></li>
+                    </ul>
+                </li>
+                <li>SERVICES<i class="fa fa-angle-down" aria-hidden="true"></i>
+                 <ul>
+                    <li><img src="/images/31.jpg" alt="" width="300px" height="300px"></li>
+                    <li><img src="/images/32.jpg" alt="" width="300px" height="300px"></li>
+                    <li><img src="/images/33.jpg" alt="" width="300px" height="300px"></li>
+                    <li><img src="/images/34.jpg" alt="" width="300px" height="300px"></li>
+                    <li><img src="/images/35.jpg" alt="" width="300px" height="300px"></li>
+                 </ul>
+                </li>
+                <li>PORTFOLIO</li>
+                <li>TEAM</li>
+               <li>DROP DOWN<i class="fa fa-angle-down" aria-hidden="true"></i>
+               <ul>
+                <li>Drop Down1</li>
+                <li>drop Down2</li>
+                <li>Drop down3</li>
+                <li>Drop Down4</li>
+               </ul>
+               <li>DEEP DROP<i class="fa-solid fa-angle-right"></i>
+                <ul>
+                    <li>Deep Down1</li>
+                    <li>Deep Down2</li>
+                    <li>Deep Down3</li>
+                    <li>Deep Down4</li>
+                </ul>
+               </li>
+                <li>CONTACTS<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul>
+                        <li>PHONE NUMBER:03119848678</li>
+                        <li>EMAIL:sajidar613@gmail.com</li>
+                        <li>ADDRESS:Gulshan e iqbal block 13A railway society</li>
+                        <li>MAP:house 107A near student biryani</li>
+                    </ul>
+                </li>
+                <li>Get Started<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul>
+                        <li> <div class="bandle">
+                            <img src="/images/15.jpg" alt="" width="300px" height="300px">
+                            <img src="/images/16.jpg" alt="" width="300px" height="300px">
+                            <img src="/images/22.jpg" alt="" width="300px" height="300px">
+                            <img src="/images/21.jpg" alt="" width="300px" height="300px">
+                            <img src="/images/14.jpg" alt="" width="300px" height="300px">
+                          
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eligendi quae, nihil expedita, unde minima architecto laudantium natus aperiam quibusdam inventore aspernatur ipsam sapiente! Nesciunt animi laboriosam harum autem eos.
+                          
+                          </div></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        </div>
+        
+    
+    </div>
+</div>
+<body>
+    <div class="imgslider">
+        <div class="para">
+            <marquee behavior="" direction=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur blanditiis quam sit voluptas incidunt ullam, perferendis odio quod culpa maiores atque quia, minima quis a reiciendis animi. Odio voluptatibus assumenda aperiam dolorem. Dolorem nobis quas est saepe illo in, voluptates iste rerum quaerat expedita id corporis fuga molestiae ut perferendis. Earum animi quibusdam odio atque laborum architecto quisquam laboriosam maxime. In ratione officiis reprehenderit sapiente incidunt, ipsa quod beatae ut ipsum porro, repellendus voluptate illo eum odit sint voluptatem qui nisi quae cum dolore perspiciatis tempora aperiam dolorem! Architecto veniam, repellendus aspernatur facere debitis molestiae pariatur maiores odio suscipit tenetur.</marquee></h2>
+           <div class="box">
+            <div class="con">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero numquam ratione necessitatibus temporibus possimus facere iure quasi quibusdam consectetur repellendus minima animi facilis, at dolore officiis, nihil, ipsum aliquid deserunt non odio? Quasi veniam totam aliquam dolores sunt molestiae alias dolorem recusandae architecto minima quidem deleniti soluta, magni asperiores reprehenderit.Lorem ipsum dolor  Dolorem nobis quas est saepe illo in, voluptates iste rerum quaerat expedita id corporis fuga molestiae ut perferendis. Earum animi quibusdam odio atque laborum architecto quisquam laboriosam maxime. In ratione officiis reprehenderit sapiente incidunt, ipsa quod beatae ut ipsum porro, repellendus voluptate illo eum odit sint voluptatem qui nisi quae cum dolore perspiciatis tempora aperiam dolorem! Architecto veniam, repellendus aspernatur facere debitis molestiae pariatur maiores odio suscipit tenetur</p>
+            </div>
+           </div>
+                     
+          
+           <div id="container">
+           <div class="box1">
+           <center><a href="https://www.w3schools.com/w3css/w3css_templates.asp"><img src="/images/7.png" alt="" style="margin-top: 15px; cursor: pointer;border: 1px solid black;"></center></a> 
+           <div class="con1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusantium dolor nemo tenetur omnis aspernatur distinctio, repellendus quos accusamus iusto? consectetur adipisicing elit. Quam quis expedita doloremque assumenda laboriosam, dolorum perferendis. Voluptates
+           </div>
+           </div>
+           <div class="box2">
+            <center><a href="https://www.flaticon.com/free-icons/picnic"><img src="/images/8.png" alt="" style="border: 1px solid black; margin-top: 15px; cursor: pointer;"></center></a>
+            <div class="con2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum velit vitae quas nam blanditiis incidunt architecto recusandae doloremque. Nam quod quia minus ipsum iure deserunt perspiciatis, voluptatem illo eum?
+            </div>
+           </div>
+           <div class="box3">
+            <center><a href="https://bootstrapmade.com/green-free-one-page-bootstrap-template/"><img src="/images/9.png" alt="" style="border: 1px solid black; cursor: pointer; margin-top: 15px;"></center></a>
+            <div class="con3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab, labore, quasi quae dignissimos sequi quidem possimus, tempora esse culpa nulla? Harum nisi recusandae, doloremque eius perferendis suscipit voluptas reprehenderit laboriosam adipisci in error accusamus cum excepturi hic id voluptates.
+            </div>
+           </div>
+           <div class="con4">
+            <center> <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque molestias tempore omnis ratione quam possimus inventore! Fugiat quia dolorum nobis esse temporibus dicta earum ipsa repellat minima harum, rem aliquam, atque, beatae deleniti nihil modi veniam dolor eos nesciunt. Explicabo!</h1></center>
+           </div>
+        </div>
+        <div class="h1">LOREM PARAGRAPH TEMPLATE OF LOREM 
+            <div class="b1">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione itaque quibusdam totam nostrum error et aliquid dolor ipsa nesciunt cupiditate nisi, fugit qui ad accusamus tempore, iure aperiam sed odit! adipisicing elit. Ratione itaque quibusdam totam nostrum error et aliquid dolor ipsa nesciunt cupiditate nisi, fugit qui ad accusamus tempore, iure aperiam sed odit!</p>
+            </div>
+        <marquee behavior="" direction=""> <div class="picture1" style="width:100%;"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velt. Ipsa sajjid</p>
+         <img src="/images/17.jpg" alt="" height="300px" width="300px">
+         <img src="/images/16.jpg" alt="" height="300px" width="300px">
+         <img src="/images/15.jpg" alt="" height="300px" width="300px">
+         <img src="/images/14.jpg" alt="" height="300px" width="300px">
+        </marquee>
+        </div>
+       </div>
+       <div class="container1">
+       <div class="h3" style="margin-top: 100px; margin-left: 100px; font-size: 30px;">BOX PICTURE LOREM
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa totam suscipit amet dolore sequi eligendi quaerat, perferendis autem, quae ab veritatis molestias. Explicabo porro dolorem distinctio ab consectetur quo dicta ipsum accusantium incidunt exercitationem officia, perferendis asperiores voluptatum, impedit quis quos eligendi? Ullam  voluptatem</p>
+       <div class="b3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam facilis reiciendis animi, ab praesentium. Consequuntur accusamus tenetur sint iusto, vel molestias inventore omnis totam reiciendis assumenda necessitatibus quae. Iure soluta quod accusantium vero, cupiditate perferendis sit? Minus beatae officia tempora </p>
+       </div>
+       
+       <div class="h2">GREEN DEMO
+        <div class="b2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum tenetur officia harum. Libero quasi itaque doloribus corporis consectetur dicta sit in! Odit nesciunt dolorem ipsam, deserunt laudantium autem sit ex amet officiis numquam. Neque, alias accusamus quod aspernatur dolor quas repellat nam, assumenda, quasi omnis </p>
+        </div>
+        </div>
+       </div>
+       </div>
+        </div>
+        <div class="text">
+           <marquee behavior="" direction=""><h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quis expedita doloremque assumenda laboriosam, dolorum perferendis. Voluptates, sunt, fuga libero eaque, beatae dignissimos architecto ullam laudantium laborum culpa autem natus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quis expedita doloremque assumenda laboriosam, dolorum perferendis. Voluptates, sunt, fuga libero eaque, beatae dignissimos architecto ullam laudantium laborum culpa autem natus?</h1></marquee> 
+
+        </div>
+    </div>
+</body>
+
+
+
+
+    <div id="about">
+        <div id="pic1"></div>
+        <div id="tx">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iusto nesciunt reiciendis sit delectus dolor beatae ex dolore nobis, autem architecto, corporis ad sint, atque possimus quos exercitationem modi voluptatem laudantium voluptas illo animi et praesentium in. Debitis qui consequuntur vel quis aliquid numquam assumenda. Ullam sequi numquam aut impedit tempora, reiciendis illo autem temporibus ab dolore nam recusandae magnam?</p>
+        </div>
+    </div>
+    <div id="tx2"><H1>SERVICES</H1></div>
+    <div id="con">
+        <div id="a">
+            <div id="icon1"></div>
+            <div class="t1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sequi suscipit, est eaque maiores aspernatur nihil. Ad mollitia perspiciatis exercitationem.</p></div>
+        </div>
+   
+    <div id="b">
+        <div id="icon2"></div>
+        <div class="t1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sequi suscipit, est eaque maiores aspernatur nihil. Ad mollitia perspiciatis exercitationem.</p></div>
+    </div>
+    <div id="c">
+        <div id="icon3"></div>
+        <div class="t1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sequi suscipit, est eaque maiores aspernatur nihil. Ad mollitia perspiciatis exercitationem.</p></div>
+    </div>
+    <div class="tt"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque sapiente asperiores pariatur nemo quos magnam repellendus, optio similique! Animi, hic totam obcaecati itaque aspernatur numquam ducimus est, veritatis provident maiores aperiam ipsam. Sed sit praesentium dignissimos tempore nisi excepturi similique itaque, vitae nihil soluta atque eligendi sint ut architecto debitis voluptas blanditiis mollitia optio fugiat assumenda deserunt ipsum! Suscipit ullam est facere perferendis earum nobis saepe voluptates ratione et.</p>
+ </div>
+</div>
+   <div class="border">
+    <div class="x1">
+        <img src="/images/16.jpg" alt="" width="300px" height="300px">
+       <div class="video1"> <video src="/images/1.mp4" width="400px" height="400px" controls autoplay></video>
+       </div>
+    </div> 
+    
+    <div class="x2"></div><h1>
+        <div class="t2" style="margin-left: 70px; width: 300px; height: 500px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum ab asperiores, repellat ecusandae quam? Sed laudantium consectetur mollitia odio animi? Maiores minima fugiat, eum voluptas et, </div>
+    
+    <div class="x3"></div>
+       <marquee behavior="" direction=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, culpa odit, ea pariatur animi officiis soluta ex veritatis ad iure, vel id expedita repellendus fugit deleniti laboriosam dolorum assumenda non!</marquee>
+       <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores est temporibus eaque labore reprehenderit doloribus, iusto nisi, dignissimos, quo iure ex maxime id molestiae commodi ad dolor quis? Laudantium!</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non assumenda odit placeat accusamus. Ea eos, iusto dignissimos vel quod, expedita ratione quos corporis repellendus quia laudantium adipisci laboriosam veritatis!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum excepturi consequatur quibusdam culpa, reiciendis eveniet, fugiat eligendi doloribus ipsa quia libero eaque velit in minima. Eos omnis sunt quo.</p>
+       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam, quae laboriosam dignissimos sint natus asperiores praesentium nostrum iusto fuga inventore mollitia quis optio excepturi incidunt, autem explicabo quidem, sed voluptatibus vel aliquam ab! Placeat dignissimos fugiat nam, sequi vero eligendi non quia repudiandae necessitatibus!</h2>
+       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate unde labore maxime enim reiciendis aspernatur sunt officia quasi, corporis, recusandae provident minus odio vel rerum itaque animi. Distinctio, earum nisi?</h2>
+       
+    
+   
+   </div>
+</div>
+<h2>this is picnic website form</h2>
+  <form action="backend.php">
+    <label for="name">NAME</label>
+    <input type="myname" id="name">
+    <div>
+        <label for="roll">ROLL NUMBER</label>
+        <input type="myroll" id="roll">
+    </div>
+    <div>
+        <label for="email">EMAIL</label>
+        <input type="myemail" id="email">
+    </div>
+    <div>
+        <label for="date">DATE</label>
+        <input type="date" name="mydate" id="date">
+    </div>
+    <div>
+        <label for="datetime">DATE TIME</label>
+        <input type="datetime" name="mydatetime" id="datetime">
+    </div>
+    <div>
+        <label for="eligible">ARE YOU ELIGIBLE</label>
+        <input type="checkbox" name="myeligibility" id="eligible">
+    </div>
+    <div>
+        <label for="gender">GENDER</label>
+        :MALE<input type="radio" name="mygender" id="gender">:FEMALE<input type="radio" name="mygender" id="gender">:OTHER<input type="radio" name="mygender" id="gender">
+    </div>
+    <div>
+        <label for="car">CAR</label>
+        <select name="car" id="car">
+        <option value="mycar" id="car">GLI</option>
+        <option value="mycar" id="car">FORTUNER</option>
+        <option value="mycar" id="car">COROLLA</option>
+        <option value="mycar" id="car">SWIFT</option>
+    </select>
+    </div>
+    <div>
+        <label for="text">TEXT AREA</label>
+        <textarea name="mytextarea" id="text" cols="50" rows="30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quod iusto ab id tenetur ullam nam? Vitae corporis minima qui.dolor sit amet, consectetur adipisicing elit. Dolores quod iusto ab id tenetur ullam nam? Vitae corporis minima qui.</textarea>
+    </div>
+    <div>
+        <label for="reset">RESET</label>
+        <input type="reset" value="RESET NOW" id="reset">
+    </div>
+    <div>
+        <label for="submit">SUBMITT NOW</label>
+        <input type="submit" value="SUBMITT NOW" id="submit">
+    </div>
+  </form>
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sapiente assumenda, nemo reprehenderit doloribus accusantium aliquid magnam nihil quisquam perspiciatis cupiditate iusto illo at nam aspernatur iure cumque quasi distinctio!m aliquid magnam nihil quisquam perspiciatis cupiditate iusto illo at nam aspernatur iure cumque quasi distinctio!
+ 
+ <div class="bandle">
+  <img src="/images/15.jpg" alt="" width="300px" height="300px">
+  <img src="/images/16.jpg" alt="" width="300px" height="300px">
+  <img src="/images/22.jpg" alt="" width="300px" height="300px">
+  <img src="/images/21.jpg" alt="" width="300px" height="300px">
+  <img src="/images/14.jpg" alt="" width="300px" height="300px">
+
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eligendi quae, nihil expedita, unde minima architecto laudantium natus aperiam quibusdam inventore aspernatur ipsam sapiente! Nesciunt animi laboriosam harum autem eos.
+
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1786541130473!2d55.27179611118564!3d25.197196977617995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2s!4v1705916282326!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="bye"><H1>GOOD BYE MADE BY SAJJID JHADU</H1>
+    <h1>GOOD LUCK</h1>
+</div>
+</body>
+
+</html>
